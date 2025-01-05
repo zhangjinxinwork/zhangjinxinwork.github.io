@@ -1,17 +1,32 @@
-.suiShiDaoHang .content {
-    padding: 10px; /* 增加内边距 */
-    font-size: 16px; /* 设置字体大小 */
-    border: 2px solid #ccc; /* 设置边框样式 */
-    border-radius: 5px; /* 设置边框圆角 */
-    box-shadow: none; /* 移除阴影 */
+/* 容器样式，用于包含搜索框和按钮 */
+.suiShiDaoHang {
+    display: flex; /* 使用Flexbox布局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    flex-direction: column; /* 子元素垂直排列 */
+    height: 100vh; /* 容器高度设置为视口高度的100% */
 }
 
+/* 搜索框样式 */
+.suiShiDaoHang .content {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: none;
+    margin-bottom: 10px; /* 添加底部外边距，以便与按钮分隔 */
+}
+
+/* 按钮样式 */
 .suiShiDaoHang .button {
-    padding: 10px 20px; /* 增加内边距 */
-    font-size: 16px; /* 设置字体大小 */
-    color: #fff; /* 设置字体颜色 */
-    background-color: #007bff; /* 设置背景颜色 */
-    border: none; /* 移除边框 */
-    border-radius: 5px; /* 设置边框圆角 */
-    cursor: pointer; /* 设置鼠标悬停时的光标样式 */
-    outline: none; /* 移除点击时的轮廓线 */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    /* 添加以下样式以确保按钮在较小屏幕上也能保持响应式 */
+    min-width: 100px; /* 设置按钮的最小宽度 */
+}
