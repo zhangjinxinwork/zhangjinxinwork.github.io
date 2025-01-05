@@ -59,12 +59,13 @@
   }
 
   .suiShiDaoHang .content {
-    width: 98%; /* 在小屏幕上输入框宽度为100% */
+    width: 100%; /* 在小屏幕上输入框宽度为100% */
     margin-bottom: 10px; /* 添加底部外边距 */
+    margin-top: 5px; /* 设置顶部边距 */
   }
 
   .suiShiDaoHang .button {
-    width: 98%; /* 在小屏幕上按钮宽度为100% */
+    width: 100%; /* 在小屏幕上按钮宽度为100% */
     text-align: center; /* 文本居中显示 */
   }
 }
