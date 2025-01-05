@@ -1,5 +1,5 @@
 /* 容器样式，用于包含搜索框和按钮 */
-.main-content {
+.navbar user-info-navbar {
     display: flex; /* 使用Flexbox布局 */
     justify-content: center; /* 水平居中所有子元素 */
     align-items: center; /* 垂直居中所有子元素，如果需要的话 */
