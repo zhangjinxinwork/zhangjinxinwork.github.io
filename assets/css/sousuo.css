@@ -39,3 +39,8 @@
 .suiShiDaoHang .button:hover {
     background-color: #0056b3; /* 改变背景颜色 */
 }
+.suiShiDaoHang .content,
+.suiShiDaoHang .button {
+  display: inline-block; /* 确保输入框和按钮是行内块元素 */
+  margin: 0 5px; /* 在元素之间添加一些间距 */
+}
