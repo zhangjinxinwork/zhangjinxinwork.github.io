@@ -7,7 +7,7 @@
 /* 修改左侧菜单图标的样式 */
 .navbar.user-info-navbar .fa-bars {
   display: inline-block; /* 确保图标是行内块元素 */
-  margin-left: 0; /* 设置左外边距为0 */
+  margin-right: auto; 
 }
 
 /* 修改搜索框和按钮的样式 */
@@ -39,9 +39,4 @@
   cursor: pointer; /* 设置鼠标悬停时的指针样式 */
   font-size: 16px; /* 设置字体大小 */
   transition: background-color 0.3s; /* 背景颜色过渡效果 */
-}
-
-/* 当鼠标悬停在按钮上时的样式 */
-.suiShiDaoHang .button:hover {
-  background-color: #0056b3; /* 悬停时改变背景颜色 */
 }
