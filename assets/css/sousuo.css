@@ -1,15 +1,3 @@
-/* 修改导航栏的样式，使其包含的元素水平居中 */
-.navbar.user-info-navbar {
-  display: flex; /* 使用flex布局 */
-  align-items: center; /* 垂直居中，如果需要的话 */
-}
-
-/* 修改左侧菜单图标的样式 */
-.navbar.user-info-navbar .fa-bars {
-  display: inline-block; /* 确保图标是行内块元素 */
-  margin-left: 0; /* 如果需要，可以设置左外边距为0 */
-}
-
 /* 修改搜索框和按钮的样式 */
 .suiShiDaoHang {
   display: flex; /* 使用flex布局 */
