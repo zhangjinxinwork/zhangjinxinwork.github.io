@@ -1,7 +1,3 @@
-.navbar.user-info-navbar {
-    display: flex; /* 使用Flexbox布局 */
-    justify-content: center; /* 水平居中 */
-
 .suiShiDaoHang {
     display: flex; /* 使用Flexbox布局 */
     justify-content: center; /* 水平居中 */
