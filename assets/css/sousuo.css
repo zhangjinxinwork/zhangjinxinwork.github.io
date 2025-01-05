@@ -2,6 +2,7 @@
 .navbar.user-info-navbar {
   display: flex; /* 使用flex布局 */
   justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中，如果需要的话 */
 }
 
 /* 修改左侧菜单图标的样式 */
