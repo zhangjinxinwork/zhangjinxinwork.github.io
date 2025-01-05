@@ -34,5 +34,5 @@
     cursor: pointer;
     outline: none;
     /* 添加以下样式以确保按钮在较小屏幕上也能保持响应式 */
-    min-width: 100px; /* 设置按钮的最小宽度 */
+    min-width: 15px; /* 设置按钮的最小宽度 */
 }
