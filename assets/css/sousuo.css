@@ -1,28 +1,23 @@
+/* 修改导航栏的样式，使其包含的元素水平居中 */
+.navbar.user-info-navbar {
+  display: flex; /* 使用flex布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中，如果需要的话 */
+}
+
+/* 修改左侧菜单图标的样式 */
+.navbar.user-info-navbar .fa-bars {
+  display: inline-block; /* 确保图标是行内块元素 */
+}
+
+/* 修改搜索框和按钮的样式 */
 .suiShiDaoHang {
-    display: flex; /* 使用Flexbox布局 */
-    justify-content: center; /* 水平居中 */
+  display: flex; /* 使用flex布局 */
+  justify-content: center; /* 水平居中 */
 }
 
-/* 搜索框样式 */
-.suiShiDaoHang .content {
-    padding: 10px;
-    font-size: 16px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    box-shadow: none;
-    margin-bottom: 10px; /* 添加底部外边距，以便与按钮分隔 */
-}
-
-/* 按钮样式 */
+.suiShiDaoHang .content,
 .suiShiDaoHang .button {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    outline: none;
-    /* 添加以下样式以确保按钮在较小屏幕上也能保持响应式 */
-    min-width: 15px; /* 设置按钮的最小宽度 */
+  display: inline-block; /* 确保输入框和按钮是行内块元素 */
+  margin: 0 5px; /* 在元素之间添加一些间距 */
 }
