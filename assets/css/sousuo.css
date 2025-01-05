@@ -20,7 +20,7 @@
 /* 设置输入框的样式 */
 .suiShiDaoHang .content {
   display: inline-block; /* 确保输入框是行内块元素 */
-  width: 300px; /* 设置输入框的宽度 */
+  width: 500px; /* 设置输入框的宽度 */
   padding: 10px; /* 设置内边距 */
   border: 1px solid #ccc; /* 设置边框样式 */
   border-radius: 4px; /* 设置边框圆角 */
