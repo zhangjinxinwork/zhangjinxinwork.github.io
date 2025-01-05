@@ -1,7 +1,6 @@
 /* 修改导航栏的样式，使其包含的元素水平居中 */
 .navbar.user-info-navbar {
   display: flex; /* 使用flex布局 */
-  justify-content: center; /* 水平居中 */
   align-items: center; /* 垂直居中，如果需要的话 */
 }
 
