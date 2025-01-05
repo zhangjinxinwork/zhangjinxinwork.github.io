@@ -20,28 +20,3 @@
   display: inline-block; /* 确保输入框和按钮是行内块元素 */
   margin: 0 5px; /* 在元素之间添加一些间距 */
 }
-
-.suiShiDaoHang .content {
-    padding: 10px; /* 增加内边距 */
-    font-size: 16px; /* 设置字体大小 */
-    border: 2px solid #ccc; /* 设置边框样式 */
-    border-radius: 5px; /* 设置边框圆角 */
-    box-shadow: none; /* 移除阴影 */
-}
-
-/* 修改搜索按钮的样式 */
-.suiShiDaoHang .button {
-    padding: 10px 20px; /* 增加内边距 */
-    font-size: 16px; /* 设置字体大小 */
-    color: #fff; /* 设置字体颜色 */
-    background-color: #007bff; /* 设置背景颜色 */
-    border: none; /* 移除边框 */
-    border-radius: 5px; /* 设置边框圆角 */
-    cursor: pointer; /* 设置鼠标悬停时的光标样式 */
-    outline: none; /* 移除点击时的轮廓线 */
-}
-
-/* 鼠标悬停在按钮上时的样式 */
-.suiShiDaoHang .button:hover {
-    background-color: #0056b3; /* 改变背景颜色 */
-}
