@@ -1,14 +1,10 @@
 .navbar.user-info-navbar {
     display: flex; /* 使用Flexbox布局 */
     justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    flex-direction: column; /* 子元素垂直排列 */
 
 .suiShiDaoHang {
     display: flex; /* 使用Flexbox布局 */
     justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    flex-direction: column; /* 子元素垂直排列 */
     height: 100vh; /* 容器高度设置为视口高度的100% */
 }
 
