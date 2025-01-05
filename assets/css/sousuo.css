@@ -40,3 +40,31 @@
   font-size: 16px; /* 设置字体大小 */
   transition: background-color 0.3s; /* 背景颜色过渡效果 */
 }
+
+/* 移动端样式 */
+@media (max-width: 768px) {
+  .navbar.user-info-navbar {
+    flex-direction: column; /* 在小屏幕上将导航栏改为垂直布局 */
+    align-items: stretch; /* 让元素伸展以填满容器宽度 */
+  }
+
+  .navbar.user-info-navbar .fa-bars {
+    margin-right: 0; /* 移除图标右外边距 */
+    margin-bottom: 10px; /* 添加底部外边距 */
+  }
+
+  .suiShiDaoHang {
+    flex-direction: column; /* 在小屏幕上将搜索框和按钮改为垂直布局 */
+    align-items: stretch; /* 让元素伸展以填满容器宽度 */
+  }
+
+  .suiShiDaoHang .content {
+    width: 100%; /* 在小屏幕上输入框宽度为100% */
+    margin-bottom: 10px; /* 添加底部外边距 */
+  }
+
+  .suiShiDaoHang .button {
+    width: 100%; /* 在小屏幕上按钮宽度为100% */
+    text-align: center; /* 文本居中显示 */
+  }
+}
