@@ -9,7 +9,7 @@
     justify-content: center; /* 水平居中 */
     align-items: center; /* 垂直居中 */
     flex-direction: column; /* 子元素垂直排列 */
-    height: 15px; /* 容器高度设置为视口高度的100% */
+    height: 100vh; /* 容器高度设置为视口高度的100% */
 }
 
 /* 搜索框样式 */
